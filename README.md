@@ -11,14 +11,14 @@ a atrybuty współrzędnych Y oznaczone id równym 4.
 3. SYSTEM OPERACYJNY NA KOMPUTERZE A WTYCZKA: Wtyczka została utworzona dla systemu operacyjnego Windows 10
 
 4. PRACA Z WTYCZKĄ:
-Po zaintalowaniu wtyczki z pliku ZIP w programie QGIS, należy dodać nowe połączenie usługi WFS ,,Podstawowa
+Po zaintalowaniu wtyczki z pliku ZIP (wtyczka_do_programu.zip) w programie QGIS, należy dodać nowe połączenie usługi WFS ,,Podstawowa
 Osnowa Geodezyjna Pozioma" i osobno dla ,,Podstawowa Osnowa Geodezyjna Wysokościowa",  po uprzednim skopiowaniu linku do 
 nich ze strony https://www.geoportal.gov.pl/uslugi/usluga-pobierania-wfs. 
 
 a) Wyznaczenie różnicy wysokośći na podstawie wysokości dwóch punktów: 
 W celu wyznaczenie różnicy wysokości między punktami użytkownik musi przeciągnąć do pola "Warstwy" usługę z WFS dla osnowy wysokościowej. 
-Następnie należy uruchomić w QGIS wtyczkę i zaznaczyć na bieżącej warstwie dwa punkty. W przypadku wybrania mniej niż dwa punkty zostanie
-wyświetlony komunikat ,,Zaznaczno  za małą liczbę punktów", a gdy użytkownik wybierze więcej niż dwa-komunikat ,,Zaznaczono za dużą liczbe punktów". 
+Następnie należy uruchomić w QGIS wtyczkę projekt2 (Plugin name) i rozwinięciu jej do wtyczka_do_projektu (Module name) i zaznaczyć na bieżącej warstwie dwa punkty.
+W przypadku wybrania mniej niż dwa punkty zostanie wyświetlony komunikat ,,Zaznaczno  za małą liczbę punktów", a gdy użytkownik wybierze więcej niż dwa-komunikat ,,Zaznaczono za dużą liczbe punktów". 
 Po zaznaczeniu dwóch punktów należy kliknąć pole o nazwie ,,Różnica wysokości", po czym w okienku po prawej pojawi się obliczona 
 przez program wartość tej różnicy w jednostkach metry, zaokrąglona do części tysięcznych. W oknie komunikatów programu QGIS zostają wyświetlone również 
 numery punktów na podstawie, których wyznaczono te różnicę.
