@@ -27,8 +27,8 @@ obowiązującym układzie wysokościowym w Polsce.
 
 b) Wyznaczenie pola powierzchni na podstawie trzech współrzędnych punktów:
 W celu wyznaczenie pola powierzchni na podstawie współrzędnych punktów użytkownik musi przeciągnąć do pola "Warstwy" usługę z WFS dla osnowy poziomej. 
-Następnie należy uruchomić w QGIS wtyczkę i zaznaczyć na bieżącej warstwie trzy punkty. W przypadku wybrania mniej niż dwa punkty zostanie wyświetlony 
-komunikat ,,Zaznaczno  za małą liczbę punktów". Po zaznaczeniu trzech punktów należy 
+Następnie należy uruchomić w QGIS wtyczkę i zaznaczyć na bieżącej warstwie co najmniej trzy punkty. W przypadku wybrania mniej niż trzech punktów zostanie wyświetlony 
+komunikat ,,Zaznaczno  za małą liczbę punktów". Po zaznaczeniu co najmniej trzech punktów należy 
 kliknąć pole o nazwie ,,Pole powierzchni", po czym w okienku po prawej pojawi się obliczona przez program wartość tego pola w jednostkach metry kwadratowe,
 zaokrąglona do części tysięcznych. Wtyczka została napisana dla wyznaczenia pola powierzchni punktów  dla atrybutów  warstwy o nazwie "x1992" i "y1992", 
 czyli dla wartości w układzie współrzędnych prostokątnych PL-1992. 
