@@ -23,7 +23,7 @@ Po zaznaczeniu dwóch punktów należy kliknąć pole o nazwie ,,Różnica wysok
 przez program wartość tej różnicy w jednostkach metry, zaokrąglona do części tysięcznych. W oknie komunikatów programu QGIS zostają wyświetlone również 
 numery punktów na podstawie, których wyznaczono te różnicę.
 Wtyczka została napisana dla wyznaczenia różnicy wysokości pobranej z warstwy atrybutów o nazwie "h_plevrf2007nh", czyli dla wartości w obecnie 
-obowiązującym układzie wysokościowym w Polsce. 
+obowiązującym układzie wysokościowym w Polsce. Przy zmianie warstwy należy pamiętać o zamknięciu okna wtyczki przycikiem ,,Anuluj" i otwarci jej na nowo po załadowaniu kolejnej warstwy.
 
 b) Wyznaczenie pola powierzchni na podstawie trzech współrzędnych punktów:
 W celu wyznaczenie pola powierzchni na podstawie współrzędnych punktów użytkownik musi przeciągnąć do pola "Warstwy" usługę z WFS dla osnowy poziomej. 
